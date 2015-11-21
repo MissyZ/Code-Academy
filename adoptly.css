@@ -1,0 +1,97 @@
+html, body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header	{
+  background-color: #32627D;
+  height: 80px;
+}
+
+.header .current	{
+ 	background-color: #E22966;
+	font-size: 28px;
+	
+}
+
+.header	li {
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	list-style: none;
+	padding: 20px 30px;
+	text-align: center;
+	
+}
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.jumbo	{
+  background: url(images/adoptly.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+    }
+
+.jumbo h1	{
+  color: #E22966;
+  font-size: 48px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.col-md-4 	{
+	font-stretch: narrower;
+	font-weight: 100;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.col-md-4 p 	{
+	opacity: .8;
+}
+
+button	{
+	background-color: #fff;
+	border: 1px solid #32627D;
+	color: #32627D;
+	font-size: 16px;
+	margin-top: 40px;
+	padding: 10px 90px;
+}
+
+.footer {
+ 	background-color:  #E22966;
+ 	padding: 20px;
+ 	margin-top: 135px;
+}
+
+.col-md-2, .col-md-10	{
+	color: #fff;
+	padding-top: 35px;
+}
+ .footer nav	{
+ 	text-align: right;
+ }
+.footer li {
+	padding-right: 30px;
+}
+
+.footer li, a, a:hover	{
+	color: #fff;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}

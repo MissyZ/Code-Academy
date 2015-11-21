@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body	{
+	background: url(images/junction.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+	background: rgba(0,0,0,.5);
+	height: 70px;
+	padding: 10px 0;
+}
+
+.nav	{
+	padding-top: 10px;
+}
+
+.headerImg {
+	float: left;
+}
+
+li	{
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding-left: 25px;
+}
+
+li a 	{
+	color: #fff;
+}
+
+
+/* Jumbotron */
+.mainText {
+	color: #fff;
+	position: relative;
+	top: 50px;
+	text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+h1	{
+	font-size: 65px;
+	text-align: center;
+}
+/* Supporting */
+.supporting {
+	color: #fff;
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.content p 	{
+	font-size: 16px;
+}
+
+button	{
+	background-color: rgba(0,255,188,0.5);
+	border-radius: 8px;
+	border-style: none;
+	font-size: 20px;
+	padding: 8px 50px;
+	text-shadow: none;
+}
+
+button:hover	{
+	background-color: #000;
+	opacity: .8;
+}
