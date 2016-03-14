@@ -50,7 +50,7 @@ li	{
 
 /* Jumbotron */
 .jumbotron {
-	background: url(images/bestbite.jpg) no-repeat;
+	background: url(../images/bestbite.jpg) no-repeat;
 	background-size: cover;
 	height: 500px;
 }

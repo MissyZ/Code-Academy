@@ -34,7 +34,7 @@ html, body {
 }
 
 .jumbo	{
-  background: url(images/adoptly.jpg) no-repeat center;
+  background: url(../images/adoptly.jpg) no-repeat center;
   background-size: cover;
   height: 500px;
     }
